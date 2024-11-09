@@ -23,8 +23,8 @@ class ThirdDesktop extends StatelessWidget {
             padding: const EdgeInsets.only(right: 16.0),
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white, // Button background color
-                foregroundColor: Colors.purple[900], // Text color
+                backgroundColor: Colors.white, 
+                foregroundColor: Colors.purple[900], 
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8),
@@ -46,13 +46,13 @@ class ThirdDesktop extends StatelessWidget {
         child: SingleChildScrollView(
           child: Center(
             child: Container(
-              padding: const EdgeInsets.all(20.0), // Inner padding for content
+              padding: const EdgeInsets.all(20.0),
               decoration: BoxDecoration(
                 color: Colors.white,
                 border: Border.all(color: Colors.grey.shade400, width: 1),
                 borderRadius: BorderRadius.circular(8),
               ),
-              width: 600, // Fixed width for a page-like effect
+              width: 600, 
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
